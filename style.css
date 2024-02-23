@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+}
+
+body{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(146, 170, 213), #6e64fd);
+
+}
+
+.calC{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+.title{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(98, 98, 98);
+    text-align: center;
+    height: 15px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 0;
+    border: 0;
+    background-color: #d0cece;
+
+}
+
+.input{
+    font-size: 50px;
+    height: 80px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 0;
+    border: 0;
+    background-color: #e0dfdf;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn {
+    height: 400px;
+    width: 320px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+   
+}
+.opBtn{
+    margin: 0;
+    height: 80px;
+    width: 80px;
+    border: 1px solid rgb(239, 238, 238);
+    border-radius: 0;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    &:hover{
+        background-color: rgb(245, 245, 245);
+    }
+
+}
+
+.Del{
+    margin: 0;
+    height: 80px;
+    width: 80px;
+    border: 1px solid rgb(239, 238, 238);
+    border-radius: 0;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    &:hover{
+        background-color: rgb(245, 245, 245);
+    }
+
+}
+
+.bracket{
+    width: 40px;
+}
+
+.equal{
+    margin: 0;
+    height: 80px;
+    width: 80px;
+    border: 1px solid  #7e75fc;
+    cursor: pointer;
+    background-color: #7e75fc;
+    color: #fff;
+    &:hover{
+        background-color: #757cfc;
+        border: 1px solid  #757cfc;
+    }
+}
